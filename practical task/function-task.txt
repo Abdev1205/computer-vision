@@ -1,0 +1,12 @@
+a. `cv2.waitKey(0)`: This function is used to wait for a key event in OpenCV. The argument `0` indicates that it waits indefinitely until a key is pressed. It is often used to display an image or video and wait for user input before proceeding to the next step or closing the window.
+
+b. `cv2.destroyAllWindows()`: This function is used to close all OpenCV windows that have been created. It is typically called after the completion of image or video processing tasks to clean up any open windows and release system resources.
+
+c. `cv2.cvtColor(x, y)`: This function is used to convert the color space of an image or an array of pixels. The input `x` represents the source image or pixel array, and `y` specifies the desired color space conversion code. Some commonly used conversion codes include `cv2.COLOR_BGR2RGB` (converts from BGR to RGB color space) and `cv2.COLOR_BGR2GRAY` (converts from BGR to grayscale).
+
+d. `cv2.Laplacian(img, cv2.CV_64F)`: This function applies the Laplacian operator to an image (`img`) to compute the gradient magnitude. The `cv2.CV_64F` argument specifies the data type of the output image, which is a 64-bit floating-point representation. The Laplacian operator is often used for edge detection and image sharpening.
+
+e. `plt.imshow(img, cmap='hot')`: This function is used to display an image (`img`) using the `matplotlib` library's pyplot module. The `cmap='hot'` argument specifies the colormap to be used for displaying the image. In this case, the 'hot' colormap is used, which represents higher pixel intensities with warmer colors.
+
+f. `plt.imshow(img, cmap='nipy_spectral')`: Similar to the previous function, this `plt.imshow()` call displays an image (`img`) using the `matplotlib` library. The `cmap='nipy_spectral'` argument specifies the 'nipy_spectral' colormap, which represents different pixel intensities with a wide range of spectral colors.
+
